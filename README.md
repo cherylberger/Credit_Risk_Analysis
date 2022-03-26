@@ -45,7 +45,7 @@ Create the code in Python to perform the analysis, credit_risk_resampling.ipynb.
   * Again, the low precision for the high credit risk predictions was not improved, again 1% and 100% for the low credit risk predictions 
   * The recall (sensitivity) score was lower than the other models at 70% and 57% for the the high and low risk predictions respectively. 
 
-### Deliverable 3 Use Ensemble Classifiers to Predict Credit Risk
+### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 
 Create the code in Python to perform the analysis, credit_risk_emsemble.ipynb. 
 
