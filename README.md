@@ -6,6 +6,7 @@
 Develop 6 different machine learning models to perform a loan prediction risk analysis for the credit card dataset from LendingClub.  The analysis will be shared with Jill to help resolve an inherent unbalanced classification problem, good loans easily outnumber risky loans. Using imbalanced learn and scikit learn libraries to build and evaluate models using various resampling methods.  Include a summary for Jill explaining which model, if any is preferred when used to predict credit risk. 
 
 ## Resources: 
+https://github.com/cherylberger/Credit_Risk_Analysis/blob/main/credit_risk_ensemble.ipynb
 
 ## Results: 
 
