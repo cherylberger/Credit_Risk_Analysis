@@ -3,33 +3,30 @@
 # Module 17 Challenge Data Analytics
 
 ## Overview:
-Develop 6 different machine learning models to perform a loan prediction risk analysis to share with Martha for XXXX.
+Develop 6 different machine learning models to perform a loan prediction risk analysis for the credit card dataset from LendingClub.  The analysis will be shared with Jill to help resolve an inherent unbalanced classification problem, good loans easily outnumber risky loans. Using imbalanced learn and scikit learn libraries to build and evaluate models using various resampling methods.  Include a summary for Jill explaining which model, if any is preferred when used to predict credit risk. 
 
 ## Resources: 
 
 ## Results: 
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
-There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models (15 pt)
-
+Credit Risk Resampling Techniques, Read the CSV and Perform Basic Data Cleaning
 Split the data into train and test sets
 ![image](https://user-images.githubusercontent.com/94234511/160216200-5d0fc40d-13bd-4c89-92ff-2ba41dbe6941.png)
-
 
 
 ### Deliverable 1: Use Resampling Models to Predict Credit Risk 
 
 #### Random Oversampling Algorithm
 ![image](https://user-images.githubusercontent.com/94234511/160216021-efe16d32-8d46-477d-a96a-51792ebe859a.png)
-The balanced accuracy score was 
-The precision for the high credit risk prediction was % while % for the low credit risk predictions 
-The recall (sensitivity) score was
+-The balanced accuracy score was 
+-The precision for the high credit risk prediction was % while % for the low credit risk predictions 
+-The recall (sensitivity) score was
 
 #### SMOTE Oversampling ALgorithm
 ![image](https://user-images.githubusercontent.com/94234511/160216057-aff0db8f-1386-42c1-b241-7bb23206d159.png)
-The balanced accuracy score was 
-The precision for the high credit risk prediction was % while % for the low credit risk predictions 
-The recall (sensitivity) score was
+-The balanced accuracy score was 
+-The precision for the high credit risk prediction was % while % for the low credit risk predictions 
+-The recall (sensitivity) score was
 
 #### Undersampling using the ClusterCentroids Algorithm
 ![image](https://user-images.githubusercontent.com/94234511/160216099-06fab599-9b64-4003-a182-fa46f02a13b2.png)
