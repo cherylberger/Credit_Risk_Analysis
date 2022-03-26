@@ -24,9 +24,9 @@ Split the data into train and test sets
 
 #### SMOTE Oversampling ALgorithm
 ![image](https://user-images.githubusercontent.com/94234511/160216057-aff0db8f-1386-42c1-b241-7bb23206d159.png)
- -The balanced accuracy score was slightly better at 65.1% 
- -However, the low precision for the high credit risk prediction, 1% and 100$ for the low credit risk predictions 
- -The recall (sensitivity) score was about the same at 64% and 55% for the high and low credit risk predictions respectively.
+  * The balanced accuracy score was slightly better at 65.1% 
+  * However, the low precision for the high credit risk prediction, 1% and 100$ for the low credit risk predictions 
+  * The recall (sensitivity) score was about the same at 64% and 55% for the high and low credit risk predictions respectively.
 
 #### Undersampling using the ClusterCentroids Algorithm
 ![image](https://user-images.githubusercontent.com/94234511/160216099-06fab599-9b64-4003-a182-fa46f02a13b2.png)
