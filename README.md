@@ -45,6 +45,8 @@ Create the code in Python to perform the analysis, credit_risk_resampling.ipynb.
 
 ### Deliverable 3 Use Ensemble Classifiers to Predict Credit Risk
 
+Create the code in Python to perform the analysis, credit_risk_emsemble.ipynb. 
+
 #### Balanced Random Forest Classifier
 ![image](https://user-images.githubusercontent.com/94234511/160216351-a9a8fde6-2b74-4029-8dc4-ebef800fb4b6.png)
  * The balanced accuracy score was 78.8%, improved over the over and under-sampling methods. 
