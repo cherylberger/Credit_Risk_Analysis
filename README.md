@@ -18,21 +18,21 @@ Split the data into train and test sets
 
 #### Random Oversampling Algorithm
 ![image](https://user-images.githubusercontent.com/94234511/160216021-efe16d32-8d46-477d-a96a-51792ebe859a.png)
--The balanced accuracy score was 62.5%
--The precision for the high credit risk prediction was very low, only 1% and 100% for the low credit risk predictions 
--The recall (sensitivity) score was 60% for high risk and 65% for the low risk predictions.  
+ -The balanced accuracy score was 62.5%
+ -The precision for the high credit risk prediction was very low, only 1% and 100% for the low credit risk predictions 
+ -The recall (sensitivity) score was 60% for high risk and 65% for the low risk predictions.  
 
 #### SMOTE Oversampling ALgorithm
 ![image](https://user-images.githubusercontent.com/94234511/160216057-aff0db8f-1386-42c1-b241-7bb23206d159.png)
--The balanced accuracy score was slightly better at 65.1% 
--However, the low precision for the high credit risk prediction, 1% and 100$ for the low credit risk predictions 
--The recall (sensitivity) score was about the same at 64% and 55% for the high and low credit risk predictions respectively.
+ -The balanced accuracy score was slightly better at 65.1% 
+ -However, the low precision for the high credit risk prediction, 1% and 100$ for the low credit risk predictions 
+ -The recall (sensitivity) score was about the same at 64% and 55% for the high and low credit risk predictions respectively.
 
 #### Undersampling using the ClusterCentroids Algorithm
 ![image](https://user-images.githubusercontent.com/94234511/160216099-06fab599-9b64-4003-a182-fa46f02a13b2.png)
-*The balanced accuracy score was lower than the oversampling methods at 59.9%
-*The precision for the high credit risk prediction was not improved, again 1% and 100% for the low credit risk predictions 
-*The recall (sensitivity) score was similar for the risk risk predictions at 61% but only 45% for the low risk predictions
+ *The balanced accuracy score was lower than the oversampling methods at 59.9%
+ *The precision for the high credit risk prediction was not improved, again 1% and 100% for the low credit risk predictions 
+ *The recall (sensitivity) score was similar for the risk risk predictions at 61% but only 45% for the low risk predictions
 
 
 ### Deliverable 2: Use the SMOTEENN alogrithm to Predict Credit Risk
