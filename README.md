@@ -39,9 +39,8 @@ Create the code in Python to perform the analysis, credit_risk_resampling.ipynb.
 #### Combination Oversampling and Undersampling SMOTEENN
 ![image](https://user-images.githubusercontent.com/94234511/160216149-e5269f80-3355-4336-913a-ab283e6b0a06.png)
   * The balanced accuracy score was 63.8%
-  * Again, the low precision for the high credit risk prediction was not improved, 1% and 100% for the low credit risk predictions 
+  * Again, the low precision for the high credit risk predictions was not improved, again 1% and 100% for the low credit risk predictions 
   * The recall (sensitivity) score was lower than the other models at 70% and 57% for the the high and low risk predictions respectively. 
-
 
 ### Deliverable 3 Use Ensemble Classifiers to Predict Credit Risk
 
@@ -64,5 +63,5 @@ Next, print the feature importance sorted in descending order (from most to leas
 
 ## Summary:
 
-All of the models will have poor precision for the high credit risk data, resampling may not be the best overall approach for predicting credit risk as there is bias in the data.  The use of the bias reducing algorithms appears somewhat more meaningful in the models and had high accuracy scores.  However, the precision of the high credit risk predictions was still poor at 7%.  The imbalance between presion and senstiivity for the model yields an F1 score=0.14 for the high risk predictions.  This model is prone to false predictions of high credit risk.  Therefore, the bank may be rejecting loan applciations that were acutally credit worthy.     
+All of the models will have poor precision for the high credit risk data, resampling may not be the best overall approach for predicting credit risk as there is bias in the data.  The use of the bias reducing algorithms appears somewhat more meaningful in the models and had high accuracy scores.  However, the precision of the high credit risk predictions was still poor at 7%.  The imbalance between presion and senstiivity for the model yields an F1 score=0.14 for the high risk predictions.  This model is prone to false predictions of high credit risk.  Therefore, the bank may be rejecting loan applications that were acutally credit worthy.     
 
