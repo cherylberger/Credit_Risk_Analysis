@@ -8,7 +8,7 @@ Develop 6 different machine learning models to perform a loan prediction risk an
 ## Resources: 
 https://github.com/cherylberger/Credit_Risk_Analysis/blob/main/LoanStats_2019Q1.zip
 https://github.com/cherylberger/Credit_Risk_Analysis/blob/main/credit_risk_resampling.ipynb
-
+https://github.com/cherylberger/Credit_Risk_Analysis/blob/main/credit_risk_ensemble.ipynb
 
 ## Results: 
 
