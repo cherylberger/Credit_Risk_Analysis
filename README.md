@@ -6,8 +6,10 @@
 Develop 6 different machine learning models to perform a loan prediction risk analysis for the credit card dataset from LendingClub.  The analysis will be shared with Jill to help resolve an inherent unbalanced classification problem, good loans easily outnumber risky loans. Using imbalanced learn and scikit learn libraries to build and evaluate models using various resampling methods.  Include a summary for Jill explaining which model, if any is preferred when used to predict credit risk. 
 
 ## Resources: 
-https://github.com/cherylberger/Credit_Risk_Analysis/blob/main/credit_risk_ensemble.ipynb
+https://github.com/cherylberger/Credit_Risk_Analysis/blob/main/LoanStats_2019Q1.zip
 https://github.com/cherylberger/Credit_Risk_Analysis/blob/main/credit_risk_resampling.ipynb
+
+
 ## Results: 
 
 Create the code in Python to perform the analysis, credit_risk_resampling.ipynb.  Load the dependencies for the resampling techniques, using Pandas read the datafile (LoanStats.csv) and perform basic data cleaning. The dataframe can be seen in the jupyter notebook file. Next, make the data easier to manage by gnerating a training data set. Split the data into train and test sets as illustrated below and complete the code to evaluate each machine learning algorithm. 
