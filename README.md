@@ -24,7 +24,7 @@ Create the code in Python to perform the analysis, credit_risk_resampling.ipynb.
 #### SMOTE Oversampling ALgorithm
 ![image](https://user-images.githubusercontent.com/94234511/160216057-aff0db8f-1386-42c1-b241-7bb23206d159.png)
   * The balanced accuracy score was slightly better at 65.1% 
-  * However, the low precision for the high credit risk prediction, 1% and 100$ for the low credit risk predictions 
+  * However, the low precision for the high credit risk prediction, 1% and 100% for the low credit risk predictions 
   * The recall (sensitivity) score was about the same at 64% and 55% for the high and low credit risk predictions respectively.
 
 #### Undersampling using the ClusterCentroids Algorithm
@@ -48,9 +48,8 @@ Create the code in Python to perform the analysis, credit_risk_resampling.ipynb.
 #### Balanced Random Forest Classifier
 ![image](https://user-images.githubusercontent.com/94234511/160216351-a9a8fde6-2b74-4029-8dc4-ebef800fb4b6.png)
  * The balanced accuracy score was 78.8%, improved over the over and under-sampling methods. 
- * The precision for the high credit risk prediction was slighlty better at 4% while still indicative of a high number of false postivies.  The precision was again  
-100% for the low credit risk predictions 
- * The recall (sensitivity) scores were 76% for the high risk and 91% for the low risk predictions suggesting some improvement in ability to model the data but still 
+ * The precision for the high credit risk prediction was slighlty better at 4% while still indicative of a high number of false postivies.  The precision was again 100% for the low credit risk predictions 
+ * The recall (sensitivity) scores were 76% for the high risk and 91% for the low risk predictions suggesting some improvement in ability to model but still prone to false positives.  
 ![image](https://user-images.githubusercontent.com/94234511/160218234-85ad49da-aeb3-4b39-bdb2-59c33df6af00.png)
 
 Next, print the feature importance sorted in descending order (from most to least important feature), along with the feature score.
